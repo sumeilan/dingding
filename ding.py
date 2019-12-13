@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 import requests
 import json
 
@@ -10,11 +11,11 @@ def dingmessage():
         "Charset": "UTF-8"
 }
 #构建请求数据
-    tex = "test"
+    tex = "柠檬精test~\ndemo包更新啦，下载地址,：https://fir.im/ux5a"
     message ={
         "msgtype": "text",
         "text": {
-            "content": "有新的demo包，下载地址：https://fir.im/ux5a"
+            "content": tex
         },
         "at": {
 
