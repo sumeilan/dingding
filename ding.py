@@ -14,7 +14,7 @@ def dingmessage():
     message ={
         "msgtype": "text",
         "text": {
-            "content": tex
+            "content": "有新的demo包，下载地址：https://fir.im/ux5a"
         },
         "at": {
 
